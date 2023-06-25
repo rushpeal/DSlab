@@ -23,14 +23,14 @@ message-service працює на порті 30000
 
 ### logging-service logs
 ```
->[logging-service][App][2023-06-25 12:27:36,527]: Initialized logging for logging-service
->[logging-service][App][2023-06-25 12:27:37,377]: Starting httpd at ('', 20000)
->[logging-service][Domain][2023-06-25 12:27:48,611]: POST request, message "This is the firts message!" logged with ID "8cc50ce9-133a-11ee-8a2e-7085c22ec7c9"
->127.0.0.1 - - [25/Jun/2023 12:27:48] "POST / HTTP/1.1" 200 -
->[logging-service][Domain][2023-06-25 12:28:14,649]: POST request, message "This is the second message!" logged with ID "9c4d1a06-133a-11ee-837e-7085c22ec7c9"
->127.0.0.1 - - [25/Jun/2023 12:28:14] "POST / HTTP/1.1" 200 -
->[logging-service][Domain][2023-06-25 12:28:51,805]: POST request 2 messages sent
->127.0.0.1 - - [25/Jun/2023 12:28:51] "GET / HTTP/1.1" 200 -
+[logging-service][App][2023-06-25 12:27:36,527]: Initialized logging for logging-service
+[logging-service][App][2023-06-25 12:27:37,377]: Starting httpd at ('', 20000)
+[logging-service][Domain][2023-06-25 12:27:48,611]: POST request, message "This is the firts message!" logged with ID "8cc50ce9-133a-11ee-8a2e-7085c22ec7c9"
+127.0.0.1 - - [25/Jun/2023 12:27:48] "POST / HTTP/1.1" 200 -
+[logging-service][Domain][2023-06-25 12:28:14,649]: POST request, message "This is the second message!" logged with ID "9c4d1a06-133a-11ee-837e-7085c22ec7c9"
+127.0.0.1 - - [25/Jun/2023 12:28:14] "POST / HTTP/1.1" 200 -
+[logging-service][Domain][2023-06-25 12:28:51,805]: POST request 2 messages sent
+127.0.0.1 - - [25/Jun/2023 12:28:51] "GET / HTTP/1.1" 200 -
 ```
 
 ### facade-service logs
