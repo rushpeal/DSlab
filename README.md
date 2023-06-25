@@ -13,7 +13,7 @@ hazelcast-network
 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/cf30520c-b86a-4183-9040-f14cd8be66f2)
 
-№ Продемонструйте роботу Distributed Map
+## Продемонструйте роботу Distributed Map
 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/3b3caac6-2dc7-40bb-a43c-df8b02a3d75a)
 
