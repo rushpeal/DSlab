@@ -35,7 +35,12 @@ hazelcast-network
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/c32fa05e-d7c7-49e0-903f-06ef9b0b24c8)
 
  В результаті перевірки (навіть без перевірки бачимо що частина даниx втрачена при вимкненій ноді)
- 
+
+ # Змінити backup-count 
+ ## Змінимо значення на 0 
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/f5e60f7f-c32b-48d8-8e0a-ba3d16560c84)
+
+
  
 
 
