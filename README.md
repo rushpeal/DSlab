@@ -28,13 +28,14 @@ hazelcast-network
  ### Перевіряємо цілістність 
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/c31626d6-0805-4cb6-8273-ce3f637225f9)
 
- ### Выдкидаэмо дві ноди 
+ ### Відкидаємо дві ноди 
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/a654b1b1-e351-480c-82ed-02b94af58495)
 
  ### Перевіряемо цілісність
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/c32fa05e-d7c7-49e0-903f-06ef9b0b24c8)
 
  В результаті перевірки (навіть без перевірки бачимо що частина даниx втрачена при вимкненій ноді)
+ 
  
 
 
