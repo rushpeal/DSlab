@@ -76,6 +76,14 @@ hazelcast-network
 ### Отримаємо стабільний результат , різниця значень в одиницю пов`язана із роботою функції put_if_absent(key, 1)
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/500494b6-2a63-494b-8ab8-02e6eb055c0a)
 
+## Налаштуйте Bounded queue
+
+### Встановимо розмыр черги 13
+![image](https://github.com/rushpeal/DSlab/assets/47487412/36516677-6cf2-445c-9e52-a09362907179)
+
+![image](https://github.com/rushpeal/DSlab/assets/47487412/3227f353-7283-45c3-b199-2dc87b93d9da)
+
+
 
 
 
