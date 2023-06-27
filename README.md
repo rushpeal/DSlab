@@ -80,8 +80,31 @@ hazelcast-network
 
 ### Встановимо розмыр черги 13
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/36516677-6cf2-445c-9e52-a09362907179)
+### Якщо значення затримки sleep 0.5 і при цьому одночасно запустити читання і запис в рiзниx терміналаx отримаємо максимальну кількість єлементів в черзі - 8 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/6f95d441-d951-447d-9ded-e0d04e056dda)
 
-![image](https://github.com/rushpeal/DSlab/assets/47487412/3227f353-7283-45c3-b199-2dc87b93d9da)
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/35f8bc1b-dbae-4e50-8420-2e5eb59602e2)
+
+![image](https://github.com/rushpeal/DSlab/assets/47487412/ff9e99a0-2a7e-433f-b7ef-eb95e3c6e2c0)
+
+
+## А) з однієї ноди (клієнта) йде запис, а на двох інших читання:
+###Якщо затримка читання є близькою до затримки запису, то читання з двох клієнтів призведе до того, що агрегована сума черги не буде зростати, адже читання відбуватиметься швидше за запис, а іноді - навіть швидше за вивід дебагу процесу запису принтом:
+![image](https://github.com/rushpeal/DSlab/assets/47487412/a55752eb-c77f-467c-b625-714b19135c1b)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/c2a5c4b9-58d1-4909-893b-58c1e6cb13ec)
+
+## Перевірка поведінки на запис якщо відсутнє читання, і черга заповнена
+![image](https://github.com/rushpeal/DSlab/assets/47487412/719c53ea-e6b4-4efd-9108-23ee802a0554)
+### Черга не приймає елементів на запис від жодних клієнтів до звільнення в ній місця
+![image](https://github.com/rushpeal/DSlab/assets/47487412/e8d95986-8259-4701-be84-4dcf51410ead)
+
+### У виппадку коли є кілька читачів 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/d2db065c-2a1f-4e98-a545-8f466edfd689)
+
+### Через те. що в читачів різна затримка (2 та 6 секунд) більше 
+
+
+
 
 
 
