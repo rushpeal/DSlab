@@ -65,7 +65,19 @@ hazelcast-network
 ## Після запуску  бачимо що результати очікувано інкримінуються
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/8fe1dd12-b6af-4aa8-b1b3-0b051a88bacc)
 
-![image](https://github.com/rushpeal/DSlab/assets/47487412/3cd08c85-55c5-4f9f-9c42-1dc0a69b58bd)
+### Якщо запустити nolock_map.py одразу в двоx терміналаx виникає проблема  data race, данні починають змінюватись неконтрольовано
+![image](https://github.com/rushpeal/DSlab/assets/47487412/b102bd54-3e35-42d8-a4c2-c86e9355e03c)
+
+# Optimistic-lock
+### Бачимо стійкий результат 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/f78d08cd-7805-4550-a424-bf704a1bed76)
+
+# Pesimistick lock
+### Отримаємо стабільний результат , різниця значень в одиницю пов`язана із роботою функції put_if_absent(key, 1)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/500494b6-2a63-494b-8ab8-02e6eb055c0a)
+
+
+
 
 
 
