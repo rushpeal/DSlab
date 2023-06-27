@@ -27,3 +27,8 @@ docker run -d --name mem2 --network hazelcast-network-2 -e HZ_CLUSTERNAME=dev -p
 docker run -d --name mem3 --network hazelcast-network-2 -e HZ_CLUSTERNAME=dev -p 5703:5701 hazelcast/hazelcast:latest-snapshot
 docker run -d --network hazelcast-network-2 -p 8080:8080 hazelcast/management-center:latest-snapshot
 ```
+## В результаті отримаємо наступне 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/dc5dd873-bb1c-4730-9f2b-8f6a76ffb822)
+
+# 2. Через HTTP POST записати 10 повідомлень msg1-msg10 через facade-service
+
