@@ -69,8 +69,16 @@ docker run -d -p 8022:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv2 --network ha
 ### Відповідно, активінсть відображаеться на мапі (Велика кільість даниx отрималась в результаті довгиx перевірок)
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/c108c4cb-d685-4fd4-9ccf-bd2578f4a572)
 
-# Показати які повідомлення отримав кожен з екземплярів messages-service
+## Показати які повідомлення отримав кожен з екземплярів messages-service
+![image](https://github.com/rushpeal/DSlab/assets/47487412/b98ca98e-752d-4320-b92f-4d91acc10dec)
 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/2e04240c-6e0d-47c3-a433-a0fb1fceabc8)
+## Rabbitmq
+![image](https://github.com/rushpeal/DSlab/assets/47487412/2df6d914-e9e6-4e3a-ac4a-6827b1d94771)
+
+# Декілька разів викликати HTTP GET на facade-service та отримати об'єднані дві множини повідомлень - це мають бути повідомлення з logging-service та messages-service:
+Як видно на скріншоті - в результаті GET запиту виводяться усі занесенні данні 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/049d971c-0888-4966-ab89-d24c22d329ef)
 
 
 
