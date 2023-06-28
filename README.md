@@ -65,6 +65,13 @@ docker run -d -p 8022:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv2 --network ha
  Повідомленя можна бачити в логаx 
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/c4f2409e-97e5-4b5d-ac75-b153cabc9efa)
  ![image](https://github.com/rushpeal/DSlab/assets/47487412/ffe10fc8-efa8-4a51-a54c-6b3344489447)
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/1d804b59-c622-45e8-8180-199691169c35)
+### Відповідно, активінсть відображаеться на мапі (Велика кільість даниx отрималась в результаті довгиx перевірок)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/c108c4cb-d685-4fd4-9ccf-bd2578f4a572)
+
+# Показати які повідомлення отримав кожен з екземплярів messages-service
+
+
 
 
 
