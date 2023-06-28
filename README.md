@@ -47,8 +47,8 @@ docker run `
 ```
 docker run -it  --network hazelcast-network-4 --name rab -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
 
-docker run -d -p 8011:8001 -e "PYTHONUNBUFFERED=1" --name log-serv1 --network hazelcast-network-4 logging-service
-docker run -d -p 8012:8001 -e "PYTHONUNBUFFERED=1" --name log-serv2 --network hazelcast-network-4 logging-service
+docker run -d -p 8021:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv1 --network hazelcast-network-4 message-service  
+docker run -d -p 8022:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv2 --network hazelcast-network-4 message-service
 ```
 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/83fe0421-b436-42f7-9c56-2d14ea35f170)
