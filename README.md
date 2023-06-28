@@ -53,6 +53,12 @@ docker-compose up --build facade_service logging_service_1 logging_service_2 log
 ### Message 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/093bf76d-669b-4a54-be14-bb92a21c0a09)
 
+# Налаштування для клієнтів Hazelcast мають зберігатись як key/value у Consul і зчитуватись logging-service
+Налаштування для Message Queue (адреса, назва черги, …) мають зберігатись як key/value у Consul і зчитуватись facade-service та messages-service
+
+![image](https://github.com/rushpeal/DSlab/assets/47487412/6af452f9-e207-4651-8c6f-a038424386de)
+
+
 
 
 
