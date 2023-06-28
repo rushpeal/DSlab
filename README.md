@@ -58,6 +58,20 @@ docker-compose up --build facade_service logging_service_1 logging_service_2 log
 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/6af452f9-e207-4651-8c6f-a038424386de)
 
+# Надсилаємо POST та GET запити через POSTMAN
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/4c5e86e7-afb6-42e5-bcd4-2c7aa651f8c3)
+
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/1c82235c-eb24-4780-800d-d728f53e3b84)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/7dcf2dad-7b5b-4bcc-996c-8dc733c57151)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/f366ba70-8a78-4d27-a220-68048c4a5035)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/38c66157-bdaf-4b16-987d-f48bd5f980e2)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/63e91cc6-a305-4e23-89eb-0c847ed5c7e5)
+![image](https://github.com/rushpeal/DSlab/assets/47487412/a21cc404-6623-4de4-a7ef-7a8a187e5b39)
+
+
+
+
+
 
 
 
