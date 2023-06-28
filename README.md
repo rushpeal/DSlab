@@ -41,9 +41,17 @@ docker-compose up --build facade_service logging_service_1 logging_service_2 log
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/4e7c7ca4-0757-4f77-93ed-8f2c4e14a51f)
 
 № IP-адреси (і порти) мають зчитуватись facade-service з Consul.В коді чи конфігураціях НЕ має бути задано статичних значень адрес.
+
+### Facade
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/50d0440c-0d84-436c-a56f-8a2b13a19f67)
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/298f557c-2b27-4331-aac1-9a0a7962a10b)
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/6c9843ba-3d1b-4869-89ac-80a0c7ea48ae)
+ 
+ ### Logging 
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/a375c023-742a-4858-aea8-074f8689f286)
+
+### Message 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/093bf76d-669b-4a54-be14-bb92a21c0a09)
 
 
 
