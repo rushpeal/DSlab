@@ -46,7 +46,7 @@ docker run `
 # Запустити два екземпляри messages-service
 ```
 docker run -it  --network hazelcast-network-4 --name rab -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
-
+docker build -t message-service  .
 docker run -d -p 8021:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv1 --network hazelcast-network-4 message-service  
 docker run -d -p 8022:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv2 --network hazelcast-network-4 message-service
 ```
@@ -54,6 +54,19 @@ docker run -d -p 8022:8021 -e "PYTHONUNBUFFERED=1" --name msg-serv2 --network ha
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/83fe0421-b436-42f7-9c56-2d14ea35f170)
 
 #  Записати 10 повідомлень msg1-msg10 через facade-service
+
+### Запис робиться за допомогою postman 
+![image](https://github.com/rushpeal/DSlab/assets/47487412/270b64f8-5163-49e2-8fa2-6ba797d42310)
+
+### facade-service logs
+![image](https://github.com/rushpeal/DSlab/assets/47487412/e38fb944-c67f-4cbd-ac83-5d0fee388155)
+
+ ### Повідомлення які отримав кожен з екземплярів logging-service
+ Повідомленя можна бачити в логаx 
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/c4f2409e-97e5-4b5d-ac75-b153cabc9efa)
+ ![image](https://github.com/rushpeal/DSlab/assets/47487412/ffe10fc8-efa8-4a51-a54c-6b3344489447)
+
+
 
 
 
