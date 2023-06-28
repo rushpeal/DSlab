@@ -13,10 +13,14 @@ docker-compose up hz1 hz2 hz3 consul-server consul-client rabbitmq
 ### Після створення контейнерів 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/47d2d60c-8b3e-4d2e-a865-8a5920ecd087)
 
-### Вводимо в терміналі  
+### Вводимо в терміналі  consul-server наступне:
 ```
-consul-server
+consul kv put hazelcast_addrs "hz1:5701,hz2:5701,hz3:5701"
+consul kv put map "MAP"
+consul kv put queue "DSLR5"
+consul kv put rabbit_host "rabbitmq"
 ```
+
 
 ![image](https://github.com/rushpeal/DSlab/assets/47487412/a2b4247b-3880-4d01-bbab-ac1791b347cb)
 
