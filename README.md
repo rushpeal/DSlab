@@ -80,3 +80,4 @@ docker-compose up --build facade_service logging_service_1 logging_service_2 log
 
 
 
+
